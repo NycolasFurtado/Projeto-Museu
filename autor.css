@@ -1,0 +1,129 @@
+body{
+    background-color: #0C0C0C;
+}
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+header {
+    width: unset;
+    padding: 60px 4%;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+    z-index: 10;
+}
+
+
+header.rolagem a {
+    color: #fff;
+}
+
+header ul a {
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+header a {
+    color: white;
+    
+}
+header img{
+    filter: brightness(0) invert(1);
+}
+
+
+
+/*Main*/
+main {
+    color: #fff;
+}
+.obra__imagem-container {
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+}
+.autor-container {
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+
+.autor__imagem {
+    padding-left: 15rem;
+    width: 400px;
+}
+
+.obra-container {
+    justify-content: center;
+    gap: 5rem;
+}
+.obra__imagem {
+    width: 100vw;
+    position: absolute;
+    top: -400px; 
+    opacity: .6;
+}
+.obra__sobre {
+    padding: 5rem 0 0 15rem;
+}
+.autor__nome, .obra__nome {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.autor__descricao, .obra__descricao {
+    max-width: 500px;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+
+.titulo {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.2rem 0;
+}
+.obra__tecnicas {
+    padding-left: 15rem;
+}
+.obra__tecnicas p {
+    max-width: 500px;
+    line-height: 1.7rem;
+}
+
+/*footer*/
+footer {
+    background-color: #0C0C0C;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.sobre div h3 {
+    padding: 1rem 0 ;
+}
+.sobre div h3, p {
+    font-size: 1.2rem;
+}
+.sobre__descricao {
+    max-width: 300px;
+}
+.footer__sitemap li a{
+    font-size: 1.2rem;
+}
+.fa-brands {
+    font-size: 2rem;
+    padding: 0.8rem;
+}
